@@ -1,0 +1,34 @@
+.header 
+    .header_box
+        %P.header_box_name 
+            = current_user.name
+        %ul.header_box_link
+            %li.link 
+                = link_to "#" do
+                    = icon('fas', 'edit')
+            %li.link 
+                = link_to edit_user_path(current_user) do
+                    = icon('fas', 'edit')
+.customers 
+    .customer
+        .costomer_loge loge
+        .costomer_company 株式会社吉田
+        .customer_name 吉田
+    .customer
+        .costomer_loge loge
+        .costomer_company 株式会社吉田
+        .customer_name 加藤
+    .customer
+        .costomer_loge loge
+        .costomer_company 株式会社吉田
+        .customer_name 林
+    .customer
+        .costomer_loge loge
+        .costomer_company 株式会社吉田
+        .customer_name 山本
+    .customer
+        .costomer_loge loge
+        .costomer_company NOP法人数学を愛す会
+        .customer_name 中野
+
+        
