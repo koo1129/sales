@@ -10,7 +10,7 @@
 - has_many :customers
 - has_many :contents
 
-## customerテーブル
+## customersテーブル
 |Column|Type|Options|
 |------|----|-------|
 |name|string|null: false|
