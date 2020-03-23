@@ -9,7 +9,7 @@
       border-radius: 5px;
   
       .account-page__inner--left, .account-page__inner--right {
-        width: 50%;
+        width: 30%;
       }
       &:after {
         clear: both;
@@ -30,7 +30,7 @@
           display: block;
           width: 60px;
           margin-top: 5px;
-          border-bottom: 1px solid #38aef0;
+          border-bottom: 1px solid burlywood;
         }
       }
   
@@ -43,7 +43,7 @@
       .btn {
         margin-top: 20px;
         color: #fff;
-        background-color: #ccc;
+        background-color: burlywood;
         font-size: 14px;
       }
     }
@@ -86,7 +86,7 @@
       float: left;
       margin-top: 20px;
       color: #fff;
-      background-color: #38aef0;
+      background-color: burlywood;
     }
   
     .field-label {
