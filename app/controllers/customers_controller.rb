@@ -7,8 +7,11 @@ class CustomersController < ApplicationController
     end
     
     def create
-        binding.pry
+        @customers = Customer.new
+        if @customers.save
+          redirect_to root_path, notice: '登録が完了しました'
+        else
+          render :new
+        end
     end
 end
-   
-    
